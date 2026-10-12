@@ -13,3 +13,7 @@ def diferenca_b_a(a, b):
 def uniao(a, b):
     """Retorna os elementos presentes em A ou em B."""
     return sorted(list(set(a) | set(b)))
+
+def intersecao(a, b):
+    """Retorna os elementos presentes em A e em B."""
+    return sorted(list(set(a) & set(b)))

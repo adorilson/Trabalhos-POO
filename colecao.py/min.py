@@ -25,5 +25,8 @@ def main():
     uni = opera.uniao(colecao_a, colecao_b)
     print(f"5. Presentes em ao menos uma das coleções: {' '.join(map(str, uni))}")
 
+    inter = opera.intersecao(colecao_a, colecao_b)
+    print(f"6. Presentes em ambas as coleções: {' '.join(map(str, inter))}")
+
 if __name__ == "__main__":
         main()

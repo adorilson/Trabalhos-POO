@@ -28,5 +28,8 @@ def main():
     inter = opera.intersecao(colecao_a, colecao_b)
     print(f"6. Presentes em ambas as coleções: {' '.join(map(str, inter))}")
 
+    dif_sim = opera.diferenca_simetrica(colecao_a, colecao_b)
+    print(f"7. Presentes em uma coleção, mas não na outra: {' '.join(map(str, dif_sim))}")
+
 if __name__ == "__main__":
         main()

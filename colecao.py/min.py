@@ -22,5 +22,8 @@ def main():
     dif_ba = opera.diferenca_b_a(colecao_a, colecao_b)
     print(f"4. Presentes na segunda, mas não na primeira: {' '.join(map(str, dif_ba))}")
 
+    uni = opera.uniao(colecao_a, colecao_b)
+    print(f"5. Presentes em ao menos uma das coleções: {' '.join(map(str, uni))}")
+
 if __name__ == "__main__":
         main()

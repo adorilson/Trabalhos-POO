@@ -19,5 +19,8 @@ def main():
     dif_ab = opera.diferenca_a_b(colecao_a, colecao_b)
     print(f"3. Presentes na primeira, mas não na segunda: {' '.join(map(str, dif_ab))}")
 
+    dif_ba = opera.diferenca_b_a(colecao_a, colecao_b)
+    print(f"4. Presentes na segunda, mas não na primeira: {' '.join(map(str, dif_ba))}")
+
 if __name__ == "__main__":
         main()

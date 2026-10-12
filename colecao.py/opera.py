@@ -17,3 +17,7 @@ def uniao(a, b):
 def intersecao(a, b):
     """Retorna os elementos presentes em A e em B."""
     return sorted(list(set(a) & set(b)))
+
+def diferenca_simetrica(a, b):
+    """Retorna os elementos presentes em exatamente uma das coleções."""
+    return sorted(list(set(a) ^ set(b)))

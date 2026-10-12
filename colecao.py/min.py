@@ -14,5 +14,10 @@ def main():
     print(f"1. Valores únicos da primeira coleção: {' '.join(map(str, a_unicos))}")
     print(f"2. Valores únicos da segunda coleção: {' '.join(map(str, b_unicos))}")
 
-if __name__ == "__main__":
+       
     main()
+    dif_ab = opera.diferenca_a_b(colecao_a, colecao_b)
+    print(f"3. Presentes na primeira, mas não na segunda: {' '.join(map(str, dif_ab))}")
+
+if __name__ == "__main__":
+        main()
